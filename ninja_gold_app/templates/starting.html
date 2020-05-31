@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pick A Mode</title>
+  </head>
+  <body>
+    <h1>Ninja Gold</h1>
+    <h3>Pick a Mode</h3>
+    <form action="/" method="POST">
+      {% csrf_token %}
+      <p>20 Moves Before 275 Gold</p>
+      <input type="radio" name="game" value="movegame" /> <br />
+      <p>Get to 1,000,000 Gold</p>
+      <input type="radio" name="game" value="goldgame" /> <br />
+      <br />
+      <button type="submit">Play Game</button>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px dotted red; */
+}
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+/* row1 */
+#row1 {
+  padding: 20px;
+}
+#row1 h3 {
+  display: inline-block;
+}
+#gold_counter {
+  margin-left: 10px;
+  width: 100px;
+  border: 5px solid black;
+}
+/* row2 */
+.cards {
+  margin-right: 25px;
+  height: 230px;
+  width: 280px;
+  border: 5px solid black;
+  display: inline-block;
+}
+.cards h2 {
+  padding: 20px;
+  text-align: center;
+}
+.cards h3 {
+  padding: 0px 20px 20px 20px;
+  text-align: center;
+}
+.cards button {
+  padding: 10px;
+  margin: 10px;
+  position: relative;
+  top: 30px;
+  left: 80px;
+  box-shadow: 4px 4px;
+  border: 2px solid black;
+}
+/* row3 */
+#row3 p {
+  margin: 20px;
+}
